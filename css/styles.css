@@ -236,3 +236,9 @@ input:focus-visible {
         display: block;
     }
 }
+
+@media screen and (max-width:600px) {
+    .container {
+        max-width: 21rem;
+    }
+}
